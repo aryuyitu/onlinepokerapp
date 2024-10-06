@@ -1,0 +1,13 @@
+.other-player-display {
+    display: flex;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-player-action{
+    margin: 10px;
+}

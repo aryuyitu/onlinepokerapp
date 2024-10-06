@@ -1,0 +1,81 @@
+/* .App {
+  text-align: center;
+}
+
+.main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .login-container{
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	padding: 20px;
+	min-width: 250px;
+	max-width: 500px;
+	user-select: none;
+} */
+
+.poker-table {
+  width: 75%; /* you might want to change this for a pixel value */
+  height: 500px; /* percentage value does not work here because of the flex container */
+  background-color: green;
+  border-radius: 50% / 25%;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border: 20px solid #804000; 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.seat { /* change this later to player, you wont need the colors */
+  position: absolute;
+}
+
+.playerUI{
+  position: absolute;
+  bottom:-30%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.playerCards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.boardCards{
+  position: absolute;
+  bottom:40%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* this is the positioning of the players relative to the poker table */
+.seat2 { bottom: 0; left: -10%;}
+.seat4 { bottom: 0; right: -10%;}
+.seat5 { top: 5%; left: -10%;}
+.seat6 { top: 5%; right: -10%;}
+
+.App-link {
+  color: #61dafb;
+}

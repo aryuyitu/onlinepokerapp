@@ -1,0 +1,36 @@
+.playingCard{
+    margin: 5%;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.red{
+    color:red;
+}
+
+.black{
+    color: black;
+}
+
+/* when you have the time try to configure the sizes based on percentages */
+/* have a min width and height, but they should get bigger as the board gets bigger */
+
+.player{
+    height: 120px;
+    width: 90px;
+}
+
+.other{
+    height: 80px;
+    width: 60px;
+}
+
+.board{
+    height: 100px;
+    width: 75px;
+}
+
+.back{
+    color:black;
+}
+
